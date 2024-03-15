@@ -1,0 +1,23 @@
+// colors
+:root {
+  // base
+  --font-family: "Onest", sans-serif;
+  --content-width: 1280px;
+  --content-fluid-width: 1355px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-fluid-width: calc(
+    var(--content-fluid-width) + (var(--container-offset) * 2)
+  );
+
+  // colors
+  --light-color: #fff;
+  --seashell-color: #f1f1f1;
+  --text-color: #1e1e1e;
+  --ocean-green-color: #50b880;
+  --ocean-two-color: #4eb97f;
+  --tuna-color: #323445;
+  --havelock-blue-color: #488ce1;
+  --surf-crest-color: #d7e7de;
+  --east-bay-color: #383b7c;
+}

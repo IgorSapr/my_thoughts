@@ -1,0 +1,14 @@
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
+  &__container {
+    @include flex-all-sb;
+
+    padding-top: 19px;
+    padding-bottom: 10px;
+  }
+}

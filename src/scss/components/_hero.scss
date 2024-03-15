@@ -1,0 +1,56 @@
+.hero {
+  margin: 10px;
+  margin-bottom: 97px;
+  border-radius: 20px;
+  min-height: 753px;
+  background: url("../img/dots-2.png") top/ cover no-repeat,
+    url("../img/dots-1.png") bottom/ cover no-repeat,
+    linear-gradient(
+      314deg,
+      #67b88d 0%,
+      #33eb88 16.5%,
+      #6df1aa 33.5%,
+      #fff 53.5%,
+      #5da0e2 100%
+    ),
+    rgba(255, 255, 255, 0.55);
+
+  &__left {
+    padding-top: 233px;
+    grid-column: 7 span;
+  }
+
+  &__benefits {
+    @include inline-flex-v-center;
+
+    margin-bottom: 50px;
+    padding: 26px 46px;
+    border: 1px solid rgba(50, 51, 69, 0.31);
+    border-radius: 90px;
+
+    &-svg {
+      margin-right: 8px;
+      width: 18px;
+      height: 20px;
+      fill: var(--tuna-color);
+    }
+
+    &-desc {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.2;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--tuna-color);
+    }
+  }
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__right {
+    padding-top: 310px;
+    grid-column: 5 span;
+  }
+}

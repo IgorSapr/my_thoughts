@@ -1,0 +1,79 @@
+.chat {
+  @keyframes closing {
+    from {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+    }
+    to {
+      display: none;
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  &__message {
+    @include flex-h-end;
+  }
+
+  &__image {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  &__block {
+    @include bg-cover;
+
+    width: 358px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  &__user {
+    &-block {
+      padding-top: 20px;
+      min-height: 115px;
+      background-image: url("../img/chat-fon-1.png");
+    }
+
+    &-text {
+      max-width: 270px;
+      color: var(--light-color);
+    }
+  }
+
+  &__admin {
+    &-block {
+      padding-top: 50px;
+      min-height: 173px;
+      background-image: url("../img/chat-fon-2.png");
+    }
+
+    &-text {
+      width: 100%;
+    }
+
+    &-image {
+      margin-top: 30px;
+    }
+  }
+}
+
+.animate__fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
