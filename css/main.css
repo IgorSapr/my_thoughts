@@ -235,6 +235,18 @@ a {
   outline-offset: 3px;
 }
 
+.frame {
+  padding: 12px 20px;
+  border-radius: 90px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--seashell-color);
+  background-color: var(--ocean-two-color);
+}
+
 .title {
   margin: 0;
   font-weight: 500;
@@ -455,5 +467,103 @@ a {
   padding-top: 310px;
   -ms-grid-column-span: 5;
   grid-column: 5 span;
+}
+
+.benefits {
+  margin-bottom: 36px;
+}
+.benefits__list {
+  gap: 20px;
+}
+.benefits__item {
+  padding-top: 50px;
+  padding-left: 50px;
+  border-radius: 20px;
+}
+.benefits__item-conveniently {
+  position: relative;
+  padding: 70px 50px;
+  -ms-grid-column-span: 12;
+  grid-column: 12 span;
+  background-color: var(--light-color);
+}
+.benefits__item-center {
+  -ms-grid-column-span: 4;
+  grid-column: 4 span;
+}
+.benefits__item-available {
+  background-color: var(--surf-crest-color);
+}
+.benefits__item-effectively {
+  background-color: var(--east-bay-color);
+}
+.benefits__item-advantageous {
+  background-color: var(--havelock-blue-color);
+}
+.benefits__item-safely {
+  position: relative;
+  padding-left: 0;
+  padding-top: 194px;
+  padding-bottom: 174px;
+  grid-column: 7/5 span;
+}
+.benefits__frame {
+  display: inline-block;
+  margin-bottom: 22px;
+}
+.benefits__frame-advantageous {
+  color: var(--text-color);
+  background-color: var(--seashell-color);
+}
+.benefits__title {
+  margin-bottom: 36px;
+  font-size: 36px;
+}
+.benefits__title-conveniently {
+  max-width: 522px;
+}
+.benefits__title-center {
+  font-size: 30px;
+  color: var(--seashell-color);
+}
+.benefits__title-available {
+  max-width: 313px;
+  color: var(--text-color);
+}
+.benefits__title-safely {
+  max-width: 420px;
+  font-size: 40px;
+}
+.benefits__title span {
+  font-weight: 700;
+}
+.benefits__text {
+  max-width: 421px;
+  font-size: 20px;
+}
+.benefits__text-center {
+  font-size: 18px;
+  color: var(--seashell-color);
+}
+.benefits__text-available {
+  max-width: 313px;
+  color: var(--text-color);
+}
+.benefits__text-advantageous {
+  max-width: 300px;
+}
+.benefits__text-safely {
+  max-width: 450px;
+  font-size: 24px;
+}
+.benefits__image-conveniently {
+  position: absolute;
+  top: -45px;
+  right: 81px;
+}
+.benefits__image-safely {
+  position: absolute;
+  top: 110px;
+  right: 450px;
 }
 /*# sourceMappingURL=main.css.map */
